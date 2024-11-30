@@ -1,0 +1,22 @@
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Anuraggupta96/Gemini-Vision-App.git
+
+2. **Navigate into project directory:**
+
+   ```bash
+   cd Gemini-Vision-App
+
+3. **Installing Requirements:**
+
+   ```bash
+   pip install -r requirements.txt
+
+## Application Execution
+1. **Run the Streamlit app:**
+
+   ```bash
+   streamlit run vision.py
