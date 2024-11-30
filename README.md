@@ -5,10 +5,13 @@ Gemini Vision is a web application powered by AI and computer vision, designed t
 
 1. Image Upload & Analysis: Users can upload images through an intuitive web interface. Once uploaded, the application uses AI models to analyze the content of the image, identifying objects, people, and other 
    visual elements.
+   
 2. Real-Time Object Detection: Using computer vision algorithms, Gemini Vision can detect objects within images and videos in real-time. This makes it ideal for applications like security surveillance, where 
    identifying people or objects quickly is essential.
+   
 3. Image Classification: The platform classifies images into predefined categories, allowing users to organize their visual data based on content. This can be particularly useful for businesses or researchers 
    working with large sets of images.
+   
 4. Interactive User Interface: The application has a clean, responsive web interface, allowing users to easily interact with the system, upload content, and view results.
    AI Integration: Gemini Vision integrates state-of-the-art AI models for visual analysis, including deep learning techniques like convolutional neural networks (CNNs), ensuring high accuracy and efficiency.
 
