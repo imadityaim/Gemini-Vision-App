@@ -17,8 +17,11 @@ Gemini Vision is a web application powered by AI and computer vision, designed t
 
 # Applications:
 Security Surveillance: Detect intruders or track objects in real-time.
+
 Healthcare: Analyze medical images like X-rays or MRIs to detect abnormalities.
+
 Retail: Automate the identification of products or customer behavior analysis.
+
 Education: Analyze visual data for research or learning purposes.
 
 # Conclusion:
