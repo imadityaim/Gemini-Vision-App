@@ -31,6 +31,12 @@ if uploaded_file is not None:
 
 submit = st.button("Tell me about the image")
 
+# If the submit button is clicked
+if submit:
+    response = get_gemini_response(input_text, image)
+    st.subheader("The Response is")
+    st.write(response)
+    
 # Footer for the app
 st.markdown(
     """
@@ -53,8 +59,4 @@ st.markdown(
     """,
     unsafe_allow_html=True)
 
-# If the submit button is clicked
-if submit:
-    response = get_gemini_response(input_text, image)
-    st.subheader("The Response is")
-    st.write(response)
+
