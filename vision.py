@@ -31,6 +31,28 @@ if uploaded_file is not None:
 
 submit = st.button("Tell me about the image")
 
+# Footer for the app
+st.markdown(
+    """
+    <style>
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #f1f1f1;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 12px;
+        color: black;
+    }
+    </style>
+    <div class="footer">
+        All Rights Reserved © 2024 | Designed by <a href="https://github.com/imadityaim">Aditya Navakhande</a>
+    </div>
+    """,
+    unsafe_allow_html=True)
+
 # If the submit button is clicked
 if submit:
     response = get_gemini_response(input_text, image)
